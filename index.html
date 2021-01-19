@@ -11,12 +11,12 @@
 </head>
 <body>
         <header class="header">
-            <div class="container">
+            <div class="container main-nav">
                     <nav class="nav">
                         <a href="./index.html" class="logo">
                             <span class="web">Web</span><span class="studio">Studio</span>
                         </a>
-                        <ul class="nav-list">
+                        <ul class="nav-list list">
                             <li class="nav-item">
                                 <a href="./index.html" class="link current">Студия</a>
                             </li>
@@ -29,7 +29,7 @@
                         </ul>
                     </nav>
                 
-                    <ul class="contacts-list">
+                    <ul class="contacts-list list">
                         <li class="contacts-item">
                             <a href="mailto:info@devstudio.com" class="link">info@devstudio.com</a>
                         </li>
@@ -50,7 +50,7 @@
             <section class="features">
                 <div class="container">
                     <h2 hidden>Наши особенности</h2>
-                    <ul class="features-list">
+                    <ul class="features-list list">
                         <li class="features-item">
                             <h3 class="features__title">Внимание к деталям</h3>
                             <p class="features__text">Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
@@ -74,15 +74,15 @@
             <section class="what-we-do">
                 <div class="container">
                     <h2 class="section__title">Чем мы занимаемся</h2>
-                    <ul class="what-we-do-list">
-                        <li>
-                            <img src="./images/what-we-do1.jpg" alt="Computer" width="370">
+                    <ul class="what-we-do-list list">
+                        <li class="what-we-do-item">
+                            <img src="./images/what-we-do1.jpg" alt="Computer" width="370" class="what-we-do-img">
                         </li>
-                        <li>
-                            <img src="./images/what-we-do2.jpg" alt="Smartphone" width="370">
+                        <li class="what-we-do-item">
+                            <img src="./images/what-we-do2.jpg" alt="Smartphone" width="370" class="what-we-do-img">
                         </li>
-                        <li>
-                            <img src="./images/what-we-do3.jpg" alt="Tablet" width="370">
+                        <li class="what-we-do-item">
+                            <img src="./images/what-we-do3.jpg" alt="Tablet" width="370" class="what-we-do-img">
                         </li>
                     </ul>
                 </div>
@@ -91,26 +91,34 @@
             <section class="team">
                 <div class="container">
                     <h2 class="section__title">Наша команда</h2>
-                    <ul class="team-members">
+                    <ul class="team-members list">
                         <li class="team__card">
                             <img src="./images/member1.jpg" alt="Игорь Демьяненко Product Designer" class="member-img" width="270" height="260">
-                            <p class="member-name">Игорь Демьяненко</p>
-                            <p class="member-role">Product Designer</p>
+                            <div class="member-description">
+                                <h3 class="member-name">Игорь Демьяненко</h3>
+                                <p class="member-role">Product Designer</p>
+                            </div>
                         </li>
                         <li class="team__card">
                             <img src="./images/member2.jpg" alt="Ольга Репина Frontend Developer" class="member-img" width="270" height="260">
-                            <p class="member-name">Ольга Репина</p>
-                            <p class="member-role">Frontend Developer</p>
+                            <div class="member-description">
+                                <h3 class="member-name">Ольга Репина</h3>
+                                <p class="member-role">Frontend Developer</p>
+                            </div>
                         </li>
                         <li class="team__card">
                             <img src="./images/member3.jpg" alt="Николай Тарасов Marketing" class="member-img" width="270" height="260">
-                            <p class="member-name">Николай Тарасов</p>
-                            <p class="member-role">Marketing</p>
+                            <div class="member-description">
+                                <h3 class="member-name">Николай Тарасов</h3>
+                                <p class="member-role">Marketing</p>
+                            </div>
                         </li>
                         <li class="team__card">
                             <img src="./images/member4.jpg" alt="Михаил Ермаков UI Designer" class="member-img" width="270" height="260">
-                            <p class="member-name">Михаил Ермаков</p>
-                            <p class="member-role">UI Designer</p>
+                            <div class="member-description">
+                                <h3 class="member-name">Михаил Ермаков</h3>
+                                <p class="member-role">UI Designer</p>
+                            </div>
                         </li>
                     </ul>
                 </div>
@@ -122,14 +130,14 @@
                     <span class="web">Web</span><span class="footer-studio">Studio</span>
                 </a>
                 <address>
-                    <ul class="adress-list">
-                        <li>
+                    <ul class="adress-list list">
+                        <li class="adress-item">
                             <a href="https://goo.gl/maps/qAZLpgprCSPZe2HK8" class="adress-item light">г. Киев, пр-т Леси Украинки, 26</a>
                         </li>
-                        <li>
+                        <li class="adress-item">
                             <a href="mailto:info@devstudio.com" class="adress-item">info@devstudio.com</a>
                         </li>
-                        <li>
+                        <li class="adress-item">
                             <a href="tel:+380961111111" class="adress-item">+38 096 111 11 11</a>
                         </li>
                     </ul>
